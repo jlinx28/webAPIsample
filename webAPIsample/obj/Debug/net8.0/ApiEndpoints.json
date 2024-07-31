@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "webAPIsample.Controllers.BooksController",
+    "Method": "AddBook",
+    "RelativePath": "api/Books/add-book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "webAPIsample.Data.ViewModels.BookVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webAPIsample.Controllers.BooksController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/Books/get-all-books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webAPIsample.Controllers.BooksController",
+    "Method": "GetBookById",
+    "RelativePath": "api/Books/get-book-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webAPIsample.Controllers.BooksController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/Books/update-book-by-id/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "book",
+        "Type": "webAPIsample.Data.ViewModels.BookVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
